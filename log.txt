@@ -1,0 +1,2 @@
+to undo git add:
+    git reset
