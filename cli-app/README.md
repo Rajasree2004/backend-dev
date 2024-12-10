@@ -14,8 +14,8 @@ pip install -r requirements.txt
 ```bash
  python -m pytest tests/.   
  ```
- ![output image] (Screenshot 2024-12-10 232305.png)
- ```bash
+![Screenshot 2024-12-10 232305.png](https://github.com/Rajasree2004/backend-dev/blob/main/cli-app/images/Screenshot%202024-12-10%20232305.png) 
+```bash
  python -m app add Get some milk -p 1 
  ```
 
