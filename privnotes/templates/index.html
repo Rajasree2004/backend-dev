@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Note</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Create a Private Note</h1>
+        <form action="/create" method="post" class="mt-4">
+            <div class="form-group">
+                <textarea name="content" rows="10" class="form-control" placeholder="Enter your note here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Create Note</button>
+        </form>
+        <br>
+        <a href="/retrieve" class="btn btn-link btn-block">Retrieve a Note</a>
+    </div>
+</body>
+</html>
